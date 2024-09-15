@@ -1,0 +1,109 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+h2 {
+  background: #4a90e2;
+  text-align: center;
+  border: 1px solid #4a4a4a;
+  border-bottom: 0px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #4a4a4a;
+}
+
+th input {
+  margin-top: 5px;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 4px solid #555;
+  background-color: #3b3b3b;
+  color: #f0f0f0;
+}
+
+th input[type='text']::placeholder {
+  color: #aaaaaa;
+}
+
+th input[type='text']:focus {
+  outline: none;
+  border: 4px solid #4a90e2;
+}
+
+th.active {
+  background-color: #4a90e2;
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #2f2f2f;
+}
+
+tr:hover {
+  background-color: #454444;
+}
+
+td:first-child {
+  font-weight: bold;
+  text-align: center;
+}
+
+.table-hover {
+  cursor: pointer;
+}
